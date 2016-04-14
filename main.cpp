@@ -25,7 +25,7 @@ int main(int narg, char*  argv[]) {
         return -1;
     }
 
-    size_t const breite = 0;
+    size_t breite = 0;
     leseArtikel( argv[1] );
     cout << "Wie Breit soll der Text ausgegeben werden? " << endl;
     cin >> breite;
